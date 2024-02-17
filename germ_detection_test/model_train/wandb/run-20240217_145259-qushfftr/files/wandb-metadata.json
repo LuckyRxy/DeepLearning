@@ -1,0 +1,39 @@
+{
+    "os": "Windows-10-10.0.19045-SP0",
+    "python": "3.11.5",
+    "heartbeatAt": "2024-02-17T13:53:01.033147",
+    "startedAt": "2024-02-17T13:52:59.862478",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "D:\\Project\\PythonProject\\DeepLearing\\germ_detection\\model_train\\model_train.py",
+    "codePathLocal": "model_train.py",
+    "codePath": "model_train.py",
+    "host": "DESKTOP-ATVCHDC",
+    "username": "LuckyRen",
+    "executable": "D:\\Project\\PythonProject\\DeepLearing\\venv\\Scripts\\python.exe",
+    "cpu_count": 8,
+    "cpu_count_logical": 16,
+    "cpu_freq": {
+        "current": 3201.0,
+        "min": 0.0,
+        "max": 3201.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3201.0,
+            "min": 0.0,
+            "max": 3201.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 276.93847274780273,
+            "used": 101.81346130371094
+        }
+    },
+    "memory": {
+        "total": 27.69232940673828
+    }
+}

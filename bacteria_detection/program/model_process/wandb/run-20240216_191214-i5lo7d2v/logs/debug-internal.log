@@ -1,0 +1,1030 @@
+2024-02-16 19:12:14,984 INFO    StreamThr :25740 [internal.py:wandb_internal():86] W&B internal server running at pid: 25740, started at: 2024-02-16 19:12:14.983186
+2024-02-16 19:12:14,985 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: status
+2024-02-16 19:12:14,988 INFO    WriterThread:25740 [datastore.py:open_for_write():87] open: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\run-i5lo7d2v.wandb
+2024-02-16 19:12:14,990 DEBUG   SenderThread:25740 [sender.py:send():382] send: header
+2024-02-16 19:12:14,991 DEBUG   SenderThread:25740 [sender.py:send():382] send: run
+2024-02-16 19:12:15,983 INFO    SenderThread:25740 [dir_watcher.py:__init__():211] watching files in: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files
+2024-02-16 19:12:15,991 INFO    SenderThread:25740 [sender.py:_start_run_threads():1136] run started: i5lo7d2v with start time 1708107134.984176
+2024-02-16 19:12:15,991 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: check_version
+2024-02-16 19:12:15,991 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: check_version
+2024-02-16 19:12:16,432 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: run_start
+2024-02-16 19:12:16,455 DEBUG   HandlerThread:25740 [system_info.py:__init__():27] System info init
+2024-02-16 19:12:16,455 DEBUG   HandlerThread:25740 [system_info.py:__init__():42] System info init done
+2024-02-16 19:12:16,455 INFO    HandlerThread:25740 [system_monitor.py:start():194] Starting system monitor
+2024-02-16 19:12:16,455 INFO    SystemMonitor:25740 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-02-16 19:12:16,455 INFO    HandlerThread:25740 [system_monitor.py:probe():214] Collecting system info
+2024-02-16 19:12:16,464 INFO    SystemMonitor:25740 [interfaces.py:start():190] Started cpu monitoring
+2024-02-16 19:12:16,472 DEBUG   HandlerThread:25740 [system_info.py:probe():151] Probing system
+2024-02-16 19:12:16,472 INFO    SystemMonitor:25740 [interfaces.py:start():190] Started disk monitoring
+2024-02-16 19:12:16,480 INFO    SystemMonitor:25740 [interfaces.py:start():190] Started memory monitoring
+2024-02-16 19:12:16,496 INFO    SystemMonitor:25740 [interfaces.py:start():190] Started network monitoring
+2024-02-16 19:12:16,507 DEBUG   HandlerThread:25740 [gitlib.py:_init_repo():56] git repository is invalid
+2024-02-16 19:12:16,507 DEBUG   HandlerThread:25740 [system_info.py:probe():199] Probing system done
+2024-02-16 19:12:16,507 DEBUG   HandlerThread:25740 [system_monitor.py:probe():223] {'os': 'Windows-10-10.0.19045-SP0', 'python': '3.11.5', 'heartbeatAt': '2024-02-16T18:12:16.472320', 'startedAt': '2024-02-16T18:12:14.967182', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'D:\\Project\\PythonProject\\DeepLearing\\bacteria_detection\\program\\model_process\\model_train_self_improve.py', 'codePathLocal': 'model_train_self_improve.py', 'codePath': 'model_train_self_improve.py', 'host': 'DESKTOP-ATVCHDC', 'username': 'LuckyRen', 'executable': 'D:\\Project\\PythonProject\\DeepLearing\\venv\\Scripts\\python.exe', 'cpu_count': 8, 'cpu_count_logical': 16, 'cpu_freq': {'current': 2537.0, 'min': 0.0, 'max': 3201.0}, 'cpu_freq_per_core': [{'current': 2537.0, 'min': 0.0, 'max': 3201.0}], 'disk': {'/': {'total': 276.93847274780273, 'used': 101.29259872436523}}, 'memory': {'total': 27.69232940673828}}
+2024-02-16 19:12:16,508 INFO    HandlerThread:25740 [system_monitor.py:probe():224] Finished collecting system info
+2024-02-16 19:12:16,508 INFO    HandlerThread:25740 [system_monitor.py:probe():227] Publishing system info
+2024-02-16 19:12:16,508 INFO    HandlerThread:25740 [system_monitor.py:probe():229] Finished publishing system info
+2024-02-16 19:12:16,517 DEBUG   SenderThread:25740 [sender.py:send():382] send: files
+2024-02-16 19:12:16,517 INFO    SenderThread:25740 [sender.py:_save_file():1403] saving file wandb-metadata.json with policy now
+2024-02-16 19:12:16,523 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: python_packages
+2024-02-16 19:12:16,524 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: python_packages
+2024-02-16 19:12:16,524 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-16 19:12:16,525 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: stop_status
+2024-02-16 19:12:16,526 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-16 19:12:16,994 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_created():271] file/dir created: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\requirements.txt
+2024-02-16 19:12:16,995 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_created():271] file/dir created: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\wandb-metadata.json
+2024-02-16 19:12:17,156 DEBUG   SenderThread:25740 [sender.py:send():382] send: telemetry
+2024-02-16 19:12:17,444 INFO    wandb-upload_0:25740 [upload_job.py:push():131] Uploaded file C:\Users\LuckyRen\AppData\Local\Temp\tmpgkpmfurmwandb\f6dpaa30-wandb-metadata.json
+2024-02-16 19:12:17,722 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-16 19:12:17,723 DEBUG   SenderThread:25740 [sender.py:send():382] send: history
+2024-02-16 19:12:17,723 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: summary_record
+2024-02-16 19:12:17,724 INFO    SenderThread:25740 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-16 19:12:18,006 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_created():271] file/dir created: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\wandb-summary.json
+2024-02-16 19:12:18,006 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_created():271] file/dir created: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\output.log
+2024-02-16 19:12:18,792 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-16 19:12:18,793 DEBUG   SenderThread:25740 [sender.py:send():382] send: history
+2024-02-16 19:12:18,793 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: summary_record
+2024-02-16 19:12:18,794 INFO    SenderThread:25740 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-16 19:12:19,019 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\wandb-summary.json
+2024-02-16 19:12:19,868 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-16 19:12:19,869 DEBUG   SenderThread:25740 [sender.py:send():382] send: history
+2024-02-16 19:12:19,869 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: summary_record
+2024-02-16 19:12:19,870 INFO    SenderThread:25740 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-16 19:12:20,032 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\wandb-summary.json
+2024-02-16 19:12:20,032 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\output.log
+2024-02-16 19:12:20,877 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: status_report
+2024-02-16 19:12:20,914 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-16 19:12:20,915 DEBUG   SenderThread:25740 [sender.py:send():382] send: history
+2024-02-16 19:12:20,915 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: summary_record
+2024-02-16 19:12:20,916 INFO    SenderThread:25740 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-16 19:12:21,046 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\wandb-summary.json
+2024-02-16 19:12:21,947 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-16 19:12:21,947 DEBUG   SenderThread:25740 [sender.py:send():382] send: history
+2024-02-16 19:12:21,947 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: summary_record
+2024-02-16 19:12:21,947 INFO    SenderThread:25740 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-16 19:12:22,053 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\wandb-summary.json
+2024-02-16 19:12:22,054 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\output.log
+2024-02-16 19:12:23,111 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-16 19:12:23,111 DEBUG   SenderThread:25740 [sender.py:send():382] send: history
+2024-02-16 19:12:23,112 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: summary_record
+2024-02-16 19:12:23,113 INFO    SenderThread:25740 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-16 19:12:24,072 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\wandb-summary.json
+2024-02-16 19:12:24,072 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\output.log
+2024-02-16 19:12:24,167 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-16 19:12:24,168 DEBUG   SenderThread:25740 [sender.py:send():382] send: history
+2024-02-16 19:12:24,168 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: summary_record
+2024-02-16 19:12:24,169 INFO    SenderThread:25740 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-16 19:12:25,086 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\wandb-summary.json
+2024-02-16 19:12:25,228 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-16 19:12:25,228 DEBUG   SenderThread:25740 [sender.py:send():382] send: history
+2024-02-16 19:12:25,228 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: summary_record
+2024-02-16 19:12:25,230 INFO    SenderThread:25740 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-16 19:12:26,099 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\wandb-summary.json
+2024-02-16 19:12:26,100 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\output.log
+2024-02-16 19:12:26,238 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: status_report
+2024-02-16 19:12:26,360 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-16 19:12:26,361 DEBUG   SenderThread:25740 [sender.py:send():382] send: history
+2024-02-16 19:12:26,361 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: summary_record
+2024-02-16 19:12:26,361 INFO    SenderThread:25740 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-16 19:12:27,111 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\wandb-summary.json
+2024-02-16 19:12:27,403 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-16 19:12:27,404 DEBUG   SenderThread:25740 [sender.py:send():382] send: history
+2024-02-16 19:12:27,404 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: summary_record
+2024-02-16 19:12:27,405 INFO    SenderThread:25740 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-16 19:12:28,112 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\wandb-summary.json
+2024-02-16 19:12:28,112 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\output.log
+2024-02-16 19:12:28,463 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-16 19:12:28,463 DEBUG   SenderThread:25740 [sender.py:send():382] send: history
+2024-02-16 19:12:28,463 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: summary_record
+2024-02-16 19:12:28,464 INFO    SenderThread:25740 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-16 19:12:29,124 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\wandb-summary.json
+2024-02-16 19:12:29,590 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-16 19:12:29,590 DEBUG   SenderThread:25740 [sender.py:send():382] send: history
+2024-02-16 19:12:29,591 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: summary_record
+2024-02-16 19:12:29,592 INFO    SenderThread:25740 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-16 19:12:30,139 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\wandb-summary.json
+2024-02-16 19:12:30,139 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\output.log
+2024-02-16 19:12:30,703 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-16 19:12:30,704 DEBUG   SenderThread:25740 [sender.py:send():382] send: history
+2024-02-16 19:12:30,704 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: summary_record
+2024-02-16 19:12:30,704 INFO    SenderThread:25740 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-16 19:12:31,146 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\wandb-summary.json
+2024-02-16 19:12:31,519 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-16 19:12:31,520 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: status_report
+2024-02-16 19:12:31,520 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: stop_status
+2024-02-16 19:12:31,534 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-16 19:12:31,818 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-16 19:12:31,818 DEBUG   SenderThread:25740 [sender.py:send():382] send: history
+2024-02-16 19:12:31,819 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: summary_record
+2024-02-16 19:12:31,819 INFO    SenderThread:25740 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-16 19:12:32,160 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\wandb-summary.json
+2024-02-16 19:12:32,161 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\output.log
+2024-02-16 19:12:32,905 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-16 19:12:32,905 DEBUG   SenderThread:25740 [sender.py:send():382] send: history
+2024-02-16 19:12:32,905 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: summary_record
+2024-02-16 19:12:32,906 INFO    SenderThread:25740 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-16 19:12:33,172 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\wandb-summary.json
+2024-02-16 19:12:33,172 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\output.log
+2024-02-16 19:12:34,068 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-16 19:12:34,069 DEBUG   SenderThread:25740 [sender.py:send():382] send: history
+2024-02-16 19:12:34,069 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: summary_record
+2024-02-16 19:12:34,070 INFO    SenderThread:25740 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-16 19:12:34,194 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\wandb-summary.json
+2024-02-16 19:12:35,208 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\output.log
+2024-02-16 19:12:35,441 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-16 19:12:35,441 DEBUG   SenderThread:25740 [sender.py:send():382] send: history
+2024-02-16 19:12:35,441 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: summary_record
+2024-02-16 19:12:35,442 INFO    SenderThread:25740 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-16 19:12:36,220 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\wandb-summary.json
+2024-02-16 19:12:36,824 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-16 19:12:36,825 DEBUG   SenderThread:25740 [sender.py:send():382] send: history
+2024-02-16 19:12:36,825 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: summary_record
+2024-02-16 19:12:36,825 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: status_report
+2024-02-16 19:12:36,826 INFO    SenderThread:25740 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-16 19:12:37,231 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\wandb-summary.json
+2024-02-16 19:12:37,231 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\output.log
+2024-02-16 19:12:38,212 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-16 19:12:38,213 DEBUG   SenderThread:25740 [sender.py:send():382] send: history
+2024-02-16 19:12:38,213 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: summary_record
+2024-02-16 19:12:38,213 INFO    SenderThread:25740 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-16 19:12:38,232 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\wandb-summary.json
+2024-02-16 19:12:39,244 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\output.log
+2024-02-16 19:12:39,869 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-16 19:12:39,870 DEBUG   SenderThread:25740 [sender.py:send():382] send: history
+2024-02-16 19:12:39,870 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: summary_record
+2024-02-16 19:12:39,871 INFO    SenderThread:25740 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-16 19:12:40,260 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\wandb-summary.json
+2024-02-16 19:12:41,277 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\output.log
+2024-02-16 19:12:41,765 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-16 19:12:41,766 DEBUG   SenderThread:25740 [sender.py:send():382] send: history
+2024-02-16 19:12:41,766 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: summary_record
+2024-02-16 19:12:41,767 INFO    SenderThread:25740 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-16 19:12:42,288 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\wandb-summary.json
+2024-02-16 19:12:42,774 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: status_report
+2024-02-16 19:12:43,292 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\output.log
+2024-02-16 19:12:43,724 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-16 19:12:43,725 DEBUG   SenderThread:25740 [sender.py:send():382] send: history
+2024-02-16 19:12:43,725 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: summary_record
+2024-02-16 19:12:43,726 INFO    SenderThread:25740 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-16 19:12:44,304 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\wandb-summary.json
+2024-02-16 19:12:45,317 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\output.log
+2024-02-16 19:12:45,703 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-16 19:12:45,704 DEBUG   SenderThread:25740 [sender.py:send():382] send: history
+2024-02-16 19:12:45,705 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: summary_record
+2024-02-16 19:12:45,705 INFO    SenderThread:25740 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-16 19:12:46,331 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\wandb-summary.json
+2024-02-16 19:12:46,518 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-16 19:12:46,519 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: stop_status
+2024-02-16 19:12:46,535 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-16 19:12:47,333 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\output.log
+2024-02-16 19:12:47,583 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-16 19:12:47,584 DEBUG   SenderThread:25740 [sender.py:send():382] send: history
+2024-02-16 19:12:47,584 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: summary_record
+2024-02-16 19:12:47,585 INFO    SenderThread:25740 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-16 19:12:48,349 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\wandb-summary.json
+2024-02-16 19:12:48,599 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: status_report
+2024-02-16 19:12:49,357 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\config.yaml
+2024-02-16 19:12:49,357 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\output.log
+2024-02-16 19:12:49,533 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-16 19:12:49,533 DEBUG   SenderThread:25740 [sender.py:send():382] send: history
+2024-02-16 19:12:49,534 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: summary_record
+2024-02-16 19:12:49,535 INFO    SenderThread:25740 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-16 19:12:50,371 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\wandb-summary.json
+2024-02-16 19:12:51,372 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\output.log
+2024-02-16 19:12:51,468 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-16 19:12:51,470 DEBUG   SenderThread:25740 [sender.py:send():382] send: history
+2024-02-16 19:12:51,470 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: summary_record
+2024-02-16 19:12:51,470 INFO    SenderThread:25740 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-16 19:12:52,385 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\wandb-summary.json
+2024-02-16 19:12:53,401 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\output.log
+2024-02-16 19:12:53,422 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-16 19:12:53,423 DEBUG   SenderThread:25740 [sender.py:send():382] send: history
+2024-02-16 19:12:53,423 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: summary_record
+2024-02-16 19:12:53,424 INFO    SenderThread:25740 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-16 19:12:54,408 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\wandb-summary.json
+2024-02-16 19:12:54,438 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: status_report
+2024-02-16 19:12:55,376 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-16 19:12:55,377 DEBUG   SenderThread:25740 [sender.py:send():382] send: history
+2024-02-16 19:12:55,377 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: summary_record
+2024-02-16 19:12:55,378 INFO    SenderThread:25740 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-16 19:12:55,411 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\wandb-summary.json
+2024-02-16 19:12:55,411 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\output.log
+2024-02-16 19:12:57,347 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-16 19:12:57,347 DEBUG   SenderThread:25740 [sender.py:send():382] send: history
+2024-02-16 19:12:57,347 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: summary_record
+2024-02-16 19:12:57,348 INFO    SenderThread:25740 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-16 19:12:57,425 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\wandb-summary.json
+2024-02-16 19:12:57,425 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\output.log
+2024-02-16 19:12:59,309 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-16 19:12:59,310 DEBUG   SenderThread:25740 [sender.py:send():382] send: history
+2024-02-16 19:12:59,310 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: summary_record
+2024-02-16 19:12:59,311 INFO    SenderThread:25740 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-16 19:12:59,447 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\wandb-summary.json
+2024-02-16 19:12:59,447 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\output.log
+2024-02-16 19:13:00,313 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: status_report
+2024-02-16 19:13:01,288 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-16 19:13:01,289 DEBUG   SenderThread:25740 [sender.py:send():382] send: history
+2024-02-16 19:13:01,289 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: summary_record
+2024-02-16 19:13:01,290 INFO    SenderThread:25740 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-16 19:13:01,462 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\wandb-summary.json
+2024-02-16 19:13:01,463 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\output.log
+2024-02-16 19:13:01,535 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-16 19:13:01,536 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: stop_status
+2024-02-16 19:13:01,551 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-16 19:13:03,230 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-16 19:13:03,231 DEBUG   SenderThread:25740 [sender.py:send():382] send: history
+2024-02-16 19:13:03,231 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: summary_record
+2024-02-16 19:13:03,232 INFO    SenderThread:25740 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-16 19:13:03,465 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\wandb-summary.json
+2024-02-16 19:13:03,465 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\output.log
+2024-02-16 19:13:05,192 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-16 19:13:05,193 DEBUG   SenderThread:25740 [sender.py:send():382] send: history
+2024-02-16 19:13:05,193 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: summary_record
+2024-02-16 19:13:05,194 INFO    SenderThread:25740 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-16 19:13:05,494 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\wandb-summary.json
+2024-02-16 19:13:05,494 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\output.log
+2024-02-16 19:13:06,198 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: status_report
+2024-02-16 19:13:07,162 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-16 19:13:07,164 DEBUG   SenderThread:25740 [sender.py:send():382] send: history
+2024-02-16 19:13:07,164 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: summary_record
+2024-02-16 19:13:07,164 INFO    SenderThread:25740 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-16 19:13:07,515 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\wandb-summary.json
+2024-02-16 19:13:07,515 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\output.log
+2024-02-16 19:13:09,141 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-16 19:13:09,141 DEBUG   SenderThread:25740 [sender.py:send():382] send: history
+2024-02-16 19:13:09,142 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: summary_record
+2024-02-16 19:13:09,142 INFO    SenderThread:25740 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-16 19:13:09,534 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\wandb-summary.json
+2024-02-16 19:13:09,535 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\output.log
+2024-02-16 19:13:11,128 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-16 19:13:11,129 DEBUG   SenderThread:25740 [sender.py:send():382] send: history
+2024-02-16 19:13:11,129 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: summary_record
+2024-02-16 19:13:11,130 INFO    SenderThread:25740 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-16 19:13:11,548 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\wandb-summary.json
+2024-02-16 19:13:11,548 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\output.log
+2024-02-16 19:13:12,144 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: status_report
+2024-02-16 19:13:13,097 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-16 19:13:13,098 DEBUG   SenderThread:25740 [sender.py:send():382] send: history
+2024-02-16 19:13:13,099 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: summary_record
+2024-02-16 19:13:13,099 INFO    SenderThread:25740 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-16 19:13:13,553 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\wandb-summary.json
+2024-02-16 19:13:13,554 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\output.log
+2024-02-16 19:13:15,066 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-16 19:13:15,067 DEBUG   SenderThread:25740 [sender.py:send():382] send: history
+2024-02-16 19:13:15,068 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: summary_record
+2024-02-16 19:13:15,068 INFO    SenderThread:25740 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-16 19:13:15,557 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\wandb-summary.json
+2024-02-16 19:13:15,558 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\output.log
+2024-02-16 19:13:16,517 DEBUG   SystemMonitor:25740 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-02-16 19:13:16,519 DEBUG   SenderThread:25740 [sender.py:send():382] send: stats
+2024-02-16 19:13:16,549 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-16 19:13:16,549 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: stop_status
+2024-02-16 19:13:16,565 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-16 19:13:17,029 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-16 19:13:17,030 DEBUG   SenderThread:25740 [sender.py:send():382] send: history
+2024-02-16 19:13:17,030 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: summary_record
+2024-02-16 19:13:17,031 INFO    SenderThread:25740 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-16 19:13:17,576 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\wandb-summary.json
+2024-02-16 19:13:17,576 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\output.log
+2024-02-16 19:13:18,043 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: status_report
+2024-02-16 19:13:18,995 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-16 19:13:18,996 DEBUG   SenderThread:25740 [sender.py:send():382] send: history
+2024-02-16 19:13:18,996 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: summary_record
+2024-02-16 19:13:18,997 INFO    SenderThread:25740 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-16 19:13:19,584 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\wandb-summary.json
+2024-02-16 19:13:19,585 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\output.log
+2024-02-16 19:13:20,985 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-16 19:13:20,985 DEBUG   SenderThread:25740 [sender.py:send():382] send: history
+2024-02-16 19:13:20,986 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: summary_record
+2024-02-16 19:13:20,986 INFO    SenderThread:25740 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-16 19:13:21,601 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\wandb-summary.json
+2024-02-16 19:13:21,602 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\output.log
+2024-02-16 19:13:22,805 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-16 19:13:22,805 DEBUG   SenderThread:25740 [sender.py:send():382] send: history
+2024-02-16 19:13:22,806 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: summary_record
+2024-02-16 19:13:22,806 INFO    SenderThread:25740 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-16 19:13:23,628 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\wandb-summary.json
+2024-02-16 19:13:23,629 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\output.log
+2024-02-16 19:13:23,814 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: status_report
+2024-02-16 19:13:24,343 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-16 19:13:24,344 DEBUG   SenderThread:25740 [sender.py:send():382] send: history
+2024-02-16 19:13:24,344 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: summary_record
+2024-02-16 19:13:24,345 INFO    SenderThread:25740 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-16 19:13:24,637 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\wandb-summary.json
+2024-02-16 19:13:25,587 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-16 19:13:25,588 DEBUG   SenderThread:25740 [sender.py:send():382] send: history
+2024-02-16 19:13:25,589 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: summary_record
+2024-02-16 19:13:25,589 INFO    SenderThread:25740 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-16 19:13:25,647 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\wandb-summary.json
+2024-02-16 19:13:25,647 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\output.log
+2024-02-16 19:13:26,842 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-16 19:13:26,843 DEBUG   SenderThread:25740 [sender.py:send():382] send: history
+2024-02-16 19:13:26,843 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: summary_record
+2024-02-16 19:13:26,844 INFO    SenderThread:25740 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-16 19:13:27,678 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\wandb-summary.json
+2024-02-16 19:13:27,678 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\output.log
+2024-02-16 19:13:28,034 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-16 19:13:28,034 DEBUG   SenderThread:25740 [sender.py:send():382] send: history
+2024-02-16 19:13:28,034 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: summary_record
+2024-02-16 19:13:28,034 INFO    SenderThread:25740 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-16 19:13:28,693 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\wandb-summary.json
+2024-02-16 19:13:29,035 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: status_report
+2024-02-16 19:13:29,303 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-16 19:13:29,303 DEBUG   SenderThread:25740 [sender.py:send():382] send: history
+2024-02-16 19:13:29,304 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: summary_record
+2024-02-16 19:13:29,305 INFO    SenderThread:25740 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-16 19:13:29,708 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\wandb-summary.json
+2024-02-16 19:13:29,708 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\output.log
+2024-02-16 19:13:30,452 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-16 19:13:30,453 DEBUG   SenderThread:25740 [sender.py:send():382] send: history
+2024-02-16 19:13:30,453 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: summary_record
+2024-02-16 19:13:30,454 INFO    SenderThread:25740 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-16 19:13:30,723 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\wandb-summary.json
+2024-02-16 19:13:31,560 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-16 19:13:31,560 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: stop_status
+2024-02-16 19:13:31,578 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-16 19:13:31,746 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\output.log
+2024-02-16 19:13:31,759 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-16 19:13:31,827 DEBUG   SenderThread:25740 [sender.py:send():382] send: history
+2024-02-16 19:13:31,827 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: summary_record
+2024-02-16 19:13:31,828 INFO    SenderThread:25740 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-16 19:13:32,757 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\wandb-summary.json
+2024-02-16 19:13:32,989 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-16 19:13:32,990 DEBUG   SenderThread:25740 [sender.py:send():382] send: history
+2024-02-16 19:13:32,990 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: summary_record
+2024-02-16 19:13:32,991 INFO    SenderThread:25740 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-16 19:13:33,778 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\wandb-summary.json
+2024-02-16 19:13:33,779 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\output.log
+2024-02-16 19:13:34,180 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-16 19:13:34,181 DEBUG   SenderThread:25740 [sender.py:send():382] send: history
+2024-02-16 19:13:34,181 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: summary_record
+2024-02-16 19:13:34,181 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: status_report
+2024-02-16 19:13:34,182 INFO    SenderThread:25740 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-16 19:13:34,787 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\wandb-summary.json
+2024-02-16 19:13:35,372 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-16 19:13:35,372 DEBUG   SenderThread:25740 [sender.py:send():382] send: history
+2024-02-16 19:13:35,372 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: summary_record
+2024-02-16 19:13:35,373 INFO    SenderThread:25740 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-16 19:13:35,810 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\wandb-summary.json
+2024-02-16 19:13:35,810 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\output.log
+2024-02-16 19:13:36,497 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-16 19:13:36,497 DEBUG   SenderThread:25740 [sender.py:send():382] send: history
+2024-02-16 19:13:36,497 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: summary_record
+2024-02-16 19:13:36,498 INFO    SenderThread:25740 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-16 19:13:36,815 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\wandb-summary.json
+2024-02-16 19:13:37,576 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-16 19:13:37,576 DEBUG   SenderThread:25740 [sender.py:send():382] send: history
+2024-02-16 19:13:37,576 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: summary_record
+2024-02-16 19:13:37,577 INFO    SenderThread:25740 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-16 19:13:37,836 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\wandb-summary.json
+2024-02-16 19:13:37,837 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\output.log
+2024-02-16 19:13:38,627 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-16 19:13:38,628 DEBUG   SenderThread:25740 [sender.py:send():382] send: history
+2024-02-16 19:13:38,628 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: summary_record
+2024-02-16 19:13:38,628 INFO    SenderThread:25740 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-16 19:13:38,847 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\wandb-summary.json
+2024-02-16 19:13:39,636 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: status_report
+2024-02-16 19:13:39,721 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-16 19:13:39,722 DEBUG   SenderThread:25740 [sender.py:send():382] send: history
+2024-02-16 19:13:39,722 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: summary_record
+2024-02-16 19:13:39,723 INFO    SenderThread:25740 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-16 19:13:39,861 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\wandb-summary.json
+2024-02-16 19:13:39,861 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\output.log
+2024-02-16 19:13:40,808 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-16 19:13:40,809 DEBUG   SenderThread:25740 [sender.py:send():382] send: history
+2024-02-16 19:13:40,809 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: summary_record
+2024-02-16 19:13:40,810 INFO    SenderThread:25740 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-16 19:13:40,871 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\wandb-summary.json
+2024-02-16 19:13:41,855 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-16 19:13:41,855 DEBUG   SenderThread:25740 [sender.py:send():382] send: history
+2024-02-16 19:13:41,856 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: summary_record
+2024-02-16 19:13:41,856 INFO    SenderThread:25740 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-16 19:13:41,883 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\wandb-summary.json
+2024-02-16 19:13:41,883 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\output.log
+2024-02-16 19:13:42,900 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-16 19:13:42,901 DEBUG   SenderThread:25740 [sender.py:send():382] send: history
+2024-02-16 19:13:42,901 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: summary_record
+2024-02-16 19:13:42,902 INFO    SenderThread:25740 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-16 19:13:43,918 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\wandb-summary.json
+2024-02-16 19:13:43,919 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\output.log
+2024-02-16 19:13:43,939 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-16 19:13:43,939 DEBUG   SenderThread:25740 [sender.py:send():382] send: history
+2024-02-16 19:13:43,940 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: summary_record
+2024-02-16 19:13:43,940 INFO    SenderThread:25740 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-16 19:13:44,927 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\wandb-summary.json
+2024-02-16 19:13:44,942 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: status_report
+2024-02-16 19:13:45,889 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-16 19:13:45,890 DEBUG   SenderThread:25740 [sender.py:send():382] send: history
+2024-02-16 19:13:45,890 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: summary_record
+2024-02-16 19:13:45,891 INFO    SenderThread:25740 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-16 19:13:45,950 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\wandb-summary.json
+2024-02-16 19:13:45,950 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\output.log
+2024-02-16 19:13:46,530 DEBUG   SenderThread:25740 [sender.py:send():382] send: stats
+2024-02-16 19:13:46,560 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-16 19:13:46,561 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: stop_status
+2024-02-16 19:13:46,591 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-16 19:13:47,834 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-16 19:13:47,835 DEBUG   SenderThread:25740 [sender.py:send():382] send: history
+2024-02-16 19:13:47,835 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: summary_record
+2024-02-16 19:13:47,836 INFO    SenderThread:25740 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-16 19:13:47,988 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\wandb-summary.json
+2024-02-16 19:13:47,988 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\output.log
+2024-02-16 19:13:49,796 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-16 19:13:49,797 DEBUG   SenderThread:25740 [sender.py:send():382] send: history
+2024-02-16 19:13:49,797 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: summary_record
+2024-02-16 19:13:49,798 INFO    SenderThread:25740 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-16 19:13:50,024 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\wandb-summary.json
+2024-02-16 19:13:50,024 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\output.log
+2024-02-16 19:13:50,799 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: status_report
+2024-02-16 19:13:51,765 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-16 19:13:51,766 DEBUG   SenderThread:25740 [sender.py:send():382] send: history
+2024-02-16 19:13:51,766 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: summary_record
+2024-02-16 19:13:51,767 INFO    SenderThread:25740 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-16 19:13:52,068 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\wandb-summary.json
+2024-02-16 19:13:52,069 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\output.log
+2024-02-16 19:13:53,734 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-16 19:13:53,735 DEBUG   SenderThread:25740 [sender.py:send():382] send: history
+2024-02-16 19:13:53,735 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: summary_record
+2024-02-16 19:13:53,736 INFO    SenderThread:25740 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-16 19:13:54,116 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\wandb-summary.json
+2024-02-16 19:13:54,116 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\output.log
+2024-02-16 19:13:55,688 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-16 19:13:55,689 DEBUG   SenderThread:25740 [sender.py:send():382] send: history
+2024-02-16 19:13:55,689 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: summary_record
+2024-02-16 19:13:55,690 INFO    SenderThread:25740 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-16 19:13:56,159 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\wandb-summary.json
+2024-02-16 19:13:56,160 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\output.log
+2024-02-16 19:13:56,704 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: status_report
+2024-02-16 19:13:57,653 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-16 19:13:57,654 DEBUG   SenderThread:25740 [sender.py:send():382] send: history
+2024-02-16 19:13:57,654 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: summary_record
+2024-02-16 19:13:57,655 INFO    SenderThread:25740 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-16 19:13:58,200 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\wandb-summary.json
+2024-02-16 19:13:58,201 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\output.log
+2024-02-16 19:13:59,601 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-16 19:13:59,602 DEBUG   SenderThread:25740 [sender.py:send():382] send: history
+2024-02-16 19:13:59,602 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: summary_record
+2024-02-16 19:13:59,603 INFO    SenderThread:25740 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-16 19:14:00,228 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\wandb-summary.json
+2024-02-16 19:14:00,229 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\output.log
+2024-02-16 19:14:01,556 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-16 19:14:01,556 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: stop_status
+2024-02-16 19:14:01,562 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-16 19:14:01,588 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-16 19:14:01,795 DEBUG   SenderThread:25740 [sender.py:send():382] send: history
+2024-02-16 19:14:01,795 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: status_report
+2024-02-16 19:14:01,795 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: summary_record
+2024-02-16 19:14:01,797 INFO    SenderThread:25740 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-16 19:14:02,264 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\wandb-summary.json
+2024-02-16 19:14:02,264 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\output.log
+2024-02-16 19:14:03,562 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-16 19:14:03,563 DEBUG   SenderThread:25740 [sender.py:send():382] send: history
+2024-02-16 19:14:03,563 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: summary_record
+2024-02-16 19:14:03,564 INFO    SenderThread:25740 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-16 19:14:04,312 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\wandb-summary.json
+2024-02-16 19:14:04,312 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\output.log
+2024-02-16 19:14:05,315 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\output.log
+2024-02-16 19:14:05,576 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-16 19:14:05,577 DEBUG   SenderThread:25740 [sender.py:send():382] send: history
+2024-02-16 19:14:05,577 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: summary_record
+2024-02-16 19:14:05,578 INFO    SenderThread:25740 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-16 19:14:06,336 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\wandb-summary.json
+2024-02-16 19:14:07,352 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\output.log
+2024-02-16 19:14:07,564 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-16 19:14:07,566 DEBUG   SenderThread:25740 [sender.py:send():382] send: history
+2024-02-16 19:14:07,566 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: summary_record
+2024-02-16 19:14:07,566 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: status_report
+2024-02-16 19:14:07,567 INFO    SenderThread:25740 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-16 19:14:08,372 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\wandb-summary.json
+2024-02-16 19:14:09,377 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\output.log
+2024-02-16 19:14:09,536 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-16 19:14:09,537 DEBUG   SenderThread:25740 [sender.py:send():382] send: history
+2024-02-16 19:14:09,537 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: summary_record
+2024-02-16 19:14:09,538 INFO    SenderThread:25740 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-16 19:14:10,408 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\wandb-summary.json
+2024-02-16 19:14:11,411 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\output.log
+2024-02-16 19:14:11,434 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-16 19:14:11,435 DEBUG   SenderThread:25740 [sender.py:send():382] send: history
+2024-02-16 19:14:11,435 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: summary_record
+2024-02-16 19:14:11,436 INFO    SenderThread:25740 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-16 19:14:12,449 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\wandb-summary.json
+2024-02-16 19:14:13,377 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-16 19:14:13,378 DEBUG   SenderThread:25740 [sender.py:send():382] send: history
+2024-02-16 19:14:13,378 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: summary_record
+2024-02-16 19:14:13,379 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: status_report
+2024-02-16 19:14:13,379 INFO    SenderThread:25740 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-16 19:14:13,455 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\wandb-summary.json
+2024-02-16 19:14:13,455 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\output.log
+2024-02-16 19:14:15,353 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-16 19:14:15,354 DEBUG   SenderThread:25740 [sender.py:send():382] send: history
+2024-02-16 19:14:15,354 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: summary_record
+2024-02-16 19:14:15,355 INFO    SenderThread:25740 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-16 19:14:15,493 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\wandb-summary.json
+2024-02-16 19:14:15,493 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\output.log
+2024-02-16 19:14:16,532 DEBUG   SenderThread:25740 [sender.py:send():382] send: stats
+2024-02-16 19:14:16,547 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-16 19:14:16,547 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: stop_status
+2024-02-16 19:14:16,594 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-16 19:14:17,315 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-16 19:14:17,316 DEBUG   SenderThread:25740 [sender.py:send():382] send: history
+2024-02-16 19:14:17,316 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: summary_record
+2024-02-16 19:14:17,317 INFO    SenderThread:25740 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-16 19:14:17,519 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\wandb-summary.json
+2024-02-16 19:14:17,520 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\output.log
+2024-02-16 19:14:19,274 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-16 19:14:19,275 DEBUG   SenderThread:25740 [sender.py:send():382] send: history
+2024-02-16 19:14:19,275 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: summary_record
+2024-02-16 19:14:19,276 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: status_report
+2024-02-16 19:14:19,276 INFO    SenderThread:25740 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-16 19:14:19,557 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\wandb-summary.json
+2024-02-16 19:14:19,558 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\output.log
+2024-02-16 19:14:21,257 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-16 19:14:21,258 DEBUG   SenderThread:25740 [sender.py:send():382] send: history
+2024-02-16 19:14:21,258 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: summary_record
+2024-02-16 19:14:21,259 INFO    SenderThread:25740 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-16 19:14:21,589 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\wandb-summary.json
+2024-02-16 19:14:21,589 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\output.log
+2024-02-16 19:14:23,221 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-16 19:14:23,222 DEBUG   SenderThread:25740 [sender.py:send():382] send: history
+2024-02-16 19:14:23,222 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: summary_record
+2024-02-16 19:14:23,223 INFO    SenderThread:25740 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-16 19:14:23,613 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\wandb-summary.json
+2024-02-16 19:14:23,613 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\output.log
+2024-02-16 19:14:25,186 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-16 19:14:25,187 DEBUG   SenderThread:25740 [sender.py:send():382] send: history
+2024-02-16 19:14:25,187 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: summary_record
+2024-02-16 19:14:25,187 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: status_report
+2024-02-16 19:14:25,188 INFO    SenderThread:25740 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-16 19:14:25,641 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\wandb-summary.json
+2024-02-16 19:14:25,642 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\output.log
+2024-02-16 19:14:27,136 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-16 19:14:27,136 DEBUG   SenderThread:25740 [sender.py:send():382] send: history
+2024-02-16 19:14:27,137 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: summary_record
+2024-02-16 19:14:27,137 INFO    SenderThread:25740 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-16 19:14:27,656 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\wandb-summary.json
+2024-02-16 19:14:27,656 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\output.log
+2024-02-16 19:14:29,062 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-16 19:14:29,063 DEBUG   SenderThread:25740 [sender.py:send():382] send: history
+2024-02-16 19:14:29,063 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: summary_record
+2024-02-16 19:14:29,064 INFO    SenderThread:25740 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-16 19:14:29,671 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\wandb-summary.json
+2024-02-16 19:14:29,671 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\output.log
+2024-02-16 19:14:31,011 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-16 19:14:31,012 DEBUG   SenderThread:25740 [sender.py:send():382] send: history
+2024-02-16 19:14:31,012 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: summary_record
+2024-02-16 19:14:31,012 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: status_report
+2024-02-16 19:14:31,013 INFO    SenderThread:25740 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-16 19:14:31,563 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-16 19:14:31,563 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: stop_status
+2024-02-16 19:14:31,610 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-16 19:14:31,688 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\wandb-summary.json
+2024-02-16 19:14:31,689 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\output.log
+2024-02-16 19:14:32,967 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-16 19:14:32,968 DEBUG   SenderThread:25740 [sender.py:send():382] send: history
+2024-02-16 19:14:32,968 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: summary_record
+2024-02-16 19:14:32,969 INFO    SenderThread:25740 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-16 19:14:33,713 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\wandb-summary.json
+2024-02-16 19:14:33,714 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\output.log
+2024-02-16 19:14:34,925 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-16 19:14:34,926 DEBUG   SenderThread:25740 [sender.py:send():382] send: history
+2024-02-16 19:14:34,926 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: summary_record
+2024-02-16 19:14:34,927 INFO    SenderThread:25740 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-16 19:14:35,758 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\wandb-summary.json
+2024-02-16 19:14:35,759 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\output.log
+2024-02-16 19:14:36,893 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-16 19:14:36,893 DEBUG   SenderThread:25740 [sender.py:send():382] send: history
+2024-02-16 19:14:36,894 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: summary_record
+2024-02-16 19:14:36,894 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: status_report
+2024-02-16 19:14:36,894 INFO    SenderThread:25740 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-16 19:14:37,786 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\wandb-summary.json
+2024-02-16 19:14:37,787 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\output.log
+2024-02-16 19:14:38,839 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-16 19:14:38,840 DEBUG   SenderThread:25740 [sender.py:send():382] send: history
+2024-02-16 19:14:38,840 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: summary_record
+2024-02-16 19:14:38,841 INFO    SenderThread:25740 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-16 19:14:39,833 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\wandb-summary.json
+2024-02-16 19:14:39,833 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\output.log
+2024-02-16 19:14:40,792 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-16 19:14:40,792 DEBUG   SenderThread:25740 [sender.py:send():382] send: history
+2024-02-16 19:14:40,793 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: summary_record
+2024-02-16 19:14:40,793 INFO    SenderThread:25740 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-16 19:14:40,857 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\wandb-summary.json
+2024-02-16 19:14:41,859 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\output.log
+2024-02-16 19:14:42,759 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-16 19:14:42,760 DEBUG   SenderThread:25740 [sender.py:send():382] send: history
+2024-02-16 19:14:42,760 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: summary_record
+2024-02-16 19:14:42,760 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: status_report
+2024-02-16 19:14:42,761 INFO    SenderThread:25740 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-16 19:14:42,892 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\wandb-summary.json
+2024-02-16 19:14:43,908 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\output.log
+2024-02-16 19:14:44,720 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-16 19:14:44,721 DEBUG   SenderThread:25740 [sender.py:send():382] send: history
+2024-02-16 19:14:44,721 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: summary_record
+2024-02-16 19:14:44,722 INFO    SenderThread:25740 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-16 19:14:44,927 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\wandb-summary.json
+2024-02-16 19:14:45,941 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\output.log
+2024-02-16 19:14:46,538 DEBUG   SenderThread:25740 [sender.py:send():382] send: stats
+2024-02-16 19:14:46,581 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-16 19:14:46,582 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: stop_status
+2024-02-16 19:14:46,613 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-16 19:14:46,668 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-16 19:14:46,732 DEBUG   SenderThread:25740 [sender.py:send():382] send: history
+2024-02-16 19:14:46,733 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: summary_record
+2024-02-16 19:14:46,733 INFO    SenderThread:25740 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-16 19:14:46,959 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\wandb-summary.json
+2024-02-16 19:14:47,969 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\output.log
+2024-02-16 19:14:48,618 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-16 19:14:48,619 DEBUG   SenderThread:25740 [sender.py:send():382] send: history
+2024-02-16 19:14:48,619 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: summary_record
+2024-02-16 19:14:48,619 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: status_report
+2024-02-16 19:14:48,620 INFO    SenderThread:25740 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-16 19:14:48,997 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\wandb-summary.json
+2024-02-16 19:14:50,011 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\output.log
+2024-02-16 19:14:50,537 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-16 19:14:50,537 DEBUG   SenderThread:25740 [sender.py:send():382] send: history
+2024-02-16 19:14:50,538 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: summary_record
+2024-02-16 19:14:50,538 INFO    SenderThread:25740 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-16 19:14:51,044 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\wandb-summary.json
+2024-02-16 19:14:52,056 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\output.log
+2024-02-16 19:14:52,503 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-16 19:14:52,504 DEBUG   SenderThread:25740 [sender.py:send():382] send: history
+2024-02-16 19:14:52,504 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: summary_record
+2024-02-16 19:14:52,505 INFO    SenderThread:25740 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-16 19:14:53,086 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\wandb-summary.json
+2024-02-16 19:14:54,101 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\output.log
+2024-02-16 19:14:54,445 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-16 19:14:54,446 DEBUG   SenderThread:25740 [sender.py:send():382] send: history
+2024-02-16 19:14:54,446 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: summary_record
+2024-02-16 19:14:54,447 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: status_report
+2024-02-16 19:14:54,447 INFO    SenderThread:25740 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-16 19:14:55,131 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\wandb-summary.json
+2024-02-16 19:14:56,144 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\output.log
+2024-02-16 19:14:56,395 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-16 19:14:56,396 DEBUG   SenderThread:25740 [sender.py:send():382] send: history
+2024-02-16 19:14:56,397 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: summary_record
+2024-02-16 19:14:56,397 INFO    SenderThread:25740 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-16 19:14:57,168 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\wandb-summary.json
+2024-02-16 19:14:58,181 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\output.log
+2024-02-16 19:14:58,419 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-16 19:14:58,420 DEBUG   SenderThread:25740 [sender.py:send():382] send: history
+2024-02-16 19:14:58,420 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: summary_record
+2024-02-16 19:14:58,421 INFO    SenderThread:25740 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-16 19:14:59,196 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\wandb-summary.json
+2024-02-16 19:15:00,210 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\output.log
+2024-02-16 19:15:00,389 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-16 19:15:00,390 DEBUG   SenderThread:25740 [sender.py:send():382] send: history
+2024-02-16 19:15:00,390 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: summary_record
+2024-02-16 19:15:00,390 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: status_report
+2024-02-16 19:15:00,391 INFO    SenderThread:25740 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-16 19:15:01,227 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\wandb-summary.json
+2024-02-16 19:15:01,581 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-16 19:15:01,582 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: stop_status
+2024-02-16 19:15:01,629 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-16 19:15:02,238 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\output.log
+2024-02-16 19:15:02,353 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-16 19:15:02,354 DEBUG   SenderThread:25740 [sender.py:send():382] send: history
+2024-02-16 19:15:02,354 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: summary_record
+2024-02-16 19:15:02,355 INFO    SenderThread:25740 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-16 19:15:03,257 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\wandb-summary.json
+2024-02-16 19:15:04,269 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\output.log
+2024-02-16 19:15:04,327 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-16 19:15:04,328 DEBUG   SenderThread:25740 [sender.py:send():382] send: history
+2024-02-16 19:15:04,328 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: summary_record
+2024-02-16 19:15:04,329 INFO    SenderThread:25740 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-16 19:15:05,284 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\wandb-summary.json
+2024-02-16 19:15:06,291 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\output.log
+2024-02-16 19:15:06,313 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-16 19:15:06,314 DEBUG   SenderThread:25740 [sender.py:send():382] send: history
+2024-02-16 19:15:06,314 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: summary_record
+2024-02-16 19:15:06,314 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: status_report
+2024-02-16 19:15:06,315 INFO    SenderThread:25740 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-16 19:15:07,309 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\wandb-summary.json
+2024-02-16 19:15:08,290 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-16 19:15:08,290 DEBUG   SenderThread:25740 [sender.py:send():382] send: history
+2024-02-16 19:15:08,291 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: summary_record
+2024-02-16 19:15:08,291 INFO    SenderThread:25740 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-16 19:15:08,321 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\wandb-summary.json
+2024-02-16 19:15:08,321 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\output.log
+2024-02-16 19:15:09,339 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\output.log
+2024-02-16 19:15:10,247 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-16 19:15:10,247 DEBUG   SenderThread:25740 [sender.py:send():382] send: history
+2024-02-16 19:15:10,247 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: summary_record
+2024-02-16 19:15:10,249 INFO    SenderThread:25740 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-16 19:15:10,348 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\wandb-summary.json
+2024-02-16 19:15:11,371 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\output.log
+2024-02-16 19:15:12,218 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-16 19:15:12,219 DEBUG   SenderThread:25740 [sender.py:send():382] send: history
+2024-02-16 19:15:12,219 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: summary_record
+2024-02-16 19:15:12,219 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: status_report
+2024-02-16 19:15:12,220 INFO    SenderThread:25740 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-16 19:15:12,384 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\wandb-summary.json
+2024-02-16 19:15:13,407 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\output.log
+2024-02-16 19:15:14,190 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-16 19:15:14,191 DEBUG   SenderThread:25740 [sender.py:send():382] send: history
+2024-02-16 19:15:14,191 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: summary_record
+2024-02-16 19:15:14,192 INFO    SenderThread:25740 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-16 19:15:14,423 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\wandb-summary.json
+2024-02-16 19:15:15,438 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\output.log
+2024-02-16 19:15:16,148 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-16 19:15:16,148 DEBUG   SenderThread:25740 [sender.py:send():382] send: history
+2024-02-16 19:15:16,149 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: summary_record
+2024-02-16 19:15:16,149 INFO    SenderThread:25740 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-16 19:15:16,440 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\wandb-summary.json
+2024-02-16 19:15:16,548 DEBUG   SenderThread:25740 [sender.py:send():382] send: stats
+2024-02-16 19:15:16,593 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-16 19:15:16,594 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: stop_status
+2024-02-16 19:15:16,642 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-16 19:15:17,458 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\output.log
+2024-02-16 19:15:17,812 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: status_report
+2024-02-16 19:15:18,075 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-16 19:15:18,076 DEBUG   SenderThread:25740 [sender.py:send():382] send: history
+2024-02-16 19:15:18,076 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: summary_record
+2024-02-16 19:15:18,077 INFO    SenderThread:25740 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-16 19:15:18,471 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\wandb-summary.json
+2024-02-16 19:15:19,501 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\output.log
+2024-02-16 19:15:20,010 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-16 19:15:20,011 DEBUG   SenderThread:25740 [sender.py:send():382] send: history
+2024-02-16 19:15:20,011 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: summary_record
+2024-02-16 19:15:20,012 INFO    SenderThread:25740 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-16 19:15:20,515 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\wandb-summary.json
+2024-02-16 19:15:21,545 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\output.log
+2024-02-16 19:15:21,986 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-16 19:15:21,987 DEBUG   SenderThread:25740 [sender.py:send():382] send: history
+2024-02-16 19:15:21,987 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: summary_record
+2024-02-16 19:15:21,988 INFO    SenderThread:25740 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-16 19:15:22,556 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\wandb-summary.json
+2024-02-16 19:15:22,993 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: status_report
+2024-02-16 19:15:23,369 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-16 19:15:23,369 DEBUG   SenderThread:25740 [sender.py:send():382] send: history
+2024-02-16 19:15:23,369 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: summary_record
+2024-02-16 19:15:23,371 INFO    SenderThread:25740 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-16 19:15:23,587 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\wandb-summary.json
+2024-02-16 19:15:23,587 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\output.log
+2024-02-16 19:15:24,507 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-16 19:15:24,507 DEBUG   SenderThread:25740 [sender.py:send():382] send: history
+2024-02-16 19:15:24,508 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: summary_record
+2024-02-16 19:15:24,508 INFO    SenderThread:25740 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-16 19:15:24,597 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\wandb-summary.json
+2024-02-16 19:15:25,579 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-16 19:15:25,580 DEBUG   SenderThread:25740 [sender.py:send():382] send: history
+2024-02-16 19:15:25,580 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: summary_record
+2024-02-16 19:15:25,580 INFO    SenderThread:25740 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-16 19:15:25,606 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\wandb-summary.json
+2024-02-16 19:15:25,606 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\output.log
+2024-02-16 19:15:26,620 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-16 19:15:26,621 DEBUG   SenderThread:25740 [sender.py:send():382] send: history
+2024-02-16 19:15:26,621 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: summary_record
+2024-02-16 19:15:26,622 INFO    SenderThread:25740 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-16 19:15:27,625 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\wandb-summary.json
+2024-02-16 19:15:27,626 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\output.log
+2024-02-16 19:15:27,701 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-16 19:15:27,702 DEBUG   SenderThread:25740 [sender.py:send():382] send: history
+2024-02-16 19:15:27,702 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: summary_record
+2024-02-16 19:15:27,702 INFO    SenderThread:25740 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-16 19:15:28,631 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\wandb-summary.json
+2024-02-16 19:15:28,709 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: status_report
+2024-02-16 19:15:28,723 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-16 19:15:28,724 DEBUG   SenderThread:25740 [sender.py:send():382] send: history
+2024-02-16 19:15:28,724 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: summary_record
+2024-02-16 19:15:28,725 INFO    SenderThread:25740 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-16 19:15:29,653 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\wandb-summary.json
+2024-02-16 19:15:29,653 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\output.log
+2024-02-16 19:15:29,802 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-16 19:15:29,803 DEBUG   SenderThread:25740 [sender.py:send():382] send: history
+2024-02-16 19:15:29,803 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: summary_record
+2024-02-16 19:15:29,804 INFO    SenderThread:25740 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-16 19:15:30,656 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\wandb-summary.json
+2024-02-16 19:15:30,970 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-16 19:15:30,970 DEBUG   SenderThread:25740 [sender.py:send():382] send: history
+2024-02-16 19:15:30,970 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: summary_record
+2024-02-16 19:15:30,970 INFO    SenderThread:25740 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-16 19:15:31,618 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-16 19:15:31,618 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: stop_status
+2024-02-16 19:15:31,649 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-16 19:15:31,701 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\wandb-summary.json
+2024-02-16 19:15:31,702 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\output.log
+2024-02-16 19:15:32,273 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-16 19:15:32,274 DEBUG   SenderThread:25740 [sender.py:send():382] send: history
+2024-02-16 19:15:32,274 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: summary_record
+2024-02-16 19:15:32,275 INFO    SenderThread:25740 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-16 19:15:32,713 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\wandb-summary.json
+2024-02-16 19:15:33,355 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-16 19:15:33,355 DEBUG   SenderThread:25740 [sender.py:send():382] send: history
+2024-02-16 19:15:33,355 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: summary_record
+2024-02-16 19:15:33,357 INFO    SenderThread:25740 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-16 19:15:33,730 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\wandb-summary.json
+2024-02-16 19:15:33,730 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\output.log
+2024-02-16 19:15:34,371 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: status_report
+2024-02-16 19:15:34,490 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-16 19:15:34,491 DEBUG   SenderThread:25740 [sender.py:send():382] send: history
+2024-02-16 19:15:34,491 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: summary_record
+2024-02-16 19:15:34,491 INFO    SenderThread:25740 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-16 19:15:34,742 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\wandb-summary.json
+2024-02-16 19:15:35,596 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-16 19:15:35,597 DEBUG   SenderThread:25740 [sender.py:send():382] send: history
+2024-02-16 19:15:35,597 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: summary_record
+2024-02-16 19:15:35,598 INFO    SenderThread:25740 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-16 19:15:35,755 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\wandb-summary.json
+2024-02-16 19:15:35,756 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\output.log
+2024-02-16 19:15:36,778 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-16 19:15:36,779 DEBUG   SenderThread:25740 [sender.py:send():382] send: history
+2024-02-16 19:15:36,779 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: summary_record
+2024-02-16 19:15:36,780 INFO    SenderThread:25740 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-16 19:15:37,782 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\wandb-summary.json
+2024-02-16 19:15:37,783 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\output.log
+2024-02-16 19:15:37,993 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-16 19:15:37,994 DEBUG   SenderThread:25740 [sender.py:send():382] send: history
+2024-02-16 19:15:37,994 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: summary_record
+2024-02-16 19:15:37,995 INFO    SenderThread:25740 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-16 19:15:38,796 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\wandb-summary.json
+2024-02-16 19:15:39,192 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-16 19:15:39,193 DEBUG   SenderThread:25740 [sender.py:send():382] send: history
+2024-02-16 19:15:39,193 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: summary_record
+2024-02-16 19:15:39,194 INFO    SenderThread:25740 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-16 19:15:39,811 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\wandb-summary.json
+2024-02-16 19:15:39,811 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\output.log
+2024-02-16 19:15:40,198 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: status_report
+2024-02-16 19:15:40,367 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-16 19:15:40,368 DEBUG   SenderThread:25740 [sender.py:send():382] send: history
+2024-02-16 19:15:40,368 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: summary_record
+2024-02-16 19:15:40,369 INFO    SenderThread:25740 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-16 19:15:40,822 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\wandb-summary.json
+2024-02-16 19:15:41,549 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-16 19:15:41,550 DEBUG   SenderThread:25740 [sender.py:send():382] send: history
+2024-02-16 19:15:41,550 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: summary_record
+2024-02-16 19:15:41,551 INFO    SenderThread:25740 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-16 19:15:41,839 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\wandb-summary.json
+2024-02-16 19:15:41,840 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\output.log
+2024-02-16 19:15:42,727 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-16 19:15:42,728 DEBUG   SenderThread:25740 [sender.py:send():382] send: history
+2024-02-16 19:15:42,728 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: summary_record
+2024-02-16 19:15:42,728 INFO    SenderThread:25740 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-16 19:15:42,849 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\wandb-summary.json
+2024-02-16 19:15:43,872 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\output.log
+2024-02-16 19:15:43,884 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-16 19:15:43,885 DEBUG   SenderThread:25740 [sender.py:send():382] send: history
+2024-02-16 19:15:43,885 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: summary_record
+2024-02-16 19:15:43,885 INFO    SenderThread:25740 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-16 19:15:44,880 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\wandb-summary.json
+2024-02-16 19:15:44,964 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-16 19:15:44,965 DEBUG   SenderThread:25740 [sender.py:send():382] send: history
+2024-02-16 19:15:44,965 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: summary_record
+2024-02-16 19:15:44,966 INFO    SenderThread:25740 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-16 19:15:45,894 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\wandb-summary.json
+2024-02-16 19:15:45,895 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\output.log
+2024-02-16 19:15:45,971 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: status_report
+2024-02-16 19:15:46,037 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-16 19:15:46,037 DEBUG   SenderThread:25740 [sender.py:send():382] send: history
+2024-02-16 19:15:46,038 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: summary_record
+2024-02-16 19:15:46,038 INFO    SenderThread:25740 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-16 19:15:46,563 DEBUG   SenderThread:25740 [sender.py:send():382] send: stats
+2024-02-16 19:15:46,625 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-16 19:15:46,626 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: stop_status
+2024-02-16 19:15:46,657 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-16 19:15:46,906 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\wandb-summary.json
+2024-02-16 19:15:47,185 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-16 19:15:47,186 DEBUG   SenderThread:25740 [sender.py:send():382] send: history
+2024-02-16 19:15:47,187 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: summary_record
+2024-02-16 19:15:47,187 INFO    SenderThread:25740 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-16 19:15:47,189 DEBUG   SenderThread:25740 [sender.py:send():382] send: exit
+2024-02-16 19:15:47,189 INFO    SenderThread:25740 [sender.py:send_exit():589] handling exit code: 1
+2024-02-16 19:15:47,189 INFO    SenderThread:25740 [sender.py:send_exit():591] handling runtime: 210
+2024-02-16 19:15:47,190 INFO    SenderThread:25740 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-16 19:15:47,190 INFO    SenderThread:25740 [sender.py:send_exit():597] send defer
+2024-02-16 19:15:47,190 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: defer
+2024-02-16 19:15:47,190 INFO    HandlerThread:25740 [handler.py:handle_request_defer():172] handle defer: 0
+2024-02-16 19:15:47,190 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: defer
+2024-02-16 19:15:47,190 INFO    SenderThread:25740 [sender.py:send_request_defer():613] handle sender defer: 0
+2024-02-16 19:15:47,190 INFO    SenderThread:25740 [sender.py:transition_state():617] send defer: 1
+2024-02-16 19:15:47,190 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: defer
+2024-02-16 19:15:47,191 INFO    HandlerThread:25740 [handler.py:handle_request_defer():172] handle defer: 1
+2024-02-16 19:15:47,191 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: defer
+2024-02-16 19:15:47,191 INFO    SenderThread:25740 [sender.py:send_request_defer():613] handle sender defer: 1
+2024-02-16 19:15:47,191 INFO    SenderThread:25740 [sender.py:transition_state():617] send defer: 2
+2024-02-16 19:15:47,191 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: defer
+2024-02-16 19:15:47,191 INFO    HandlerThread:25740 [handler.py:handle_request_defer():172] handle defer: 2
+2024-02-16 19:15:47,191 INFO    HandlerThread:25740 [system_monitor.py:finish():203] Stopping system monitor
+2024-02-16 19:15:47,192 DEBUG   SystemMonitor:25740 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-02-16 19:15:47,192 INFO    HandlerThread:25740 [interfaces.py:finish():202] Joined cpu monitor
+2024-02-16 19:15:47,192 DEBUG   SystemMonitor:25740 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-02-16 19:15:47,192 INFO    HandlerThread:25740 [interfaces.py:finish():202] Joined disk monitor
+2024-02-16 19:15:47,192 INFO    HandlerThread:25740 [interfaces.py:finish():202] Joined memory monitor
+2024-02-16 19:15:47,192 INFO    HandlerThread:25740 [interfaces.py:finish():202] Joined network monitor
+2024-02-16 19:15:47,193 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: defer
+2024-02-16 19:15:47,193 INFO    SenderThread:25740 [sender.py:send_request_defer():613] handle sender defer: 2
+2024-02-16 19:15:47,193 INFO    SenderThread:25740 [sender.py:transition_state():617] send defer: 3
+2024-02-16 19:15:47,193 DEBUG   SenderThread:25740 [sender.py:send():382] send: stats
+2024-02-16 19:15:47,193 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: defer
+2024-02-16 19:15:47,193 INFO    HandlerThread:25740 [handler.py:handle_request_defer():172] handle defer: 3
+2024-02-16 19:15:47,193 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: defer
+2024-02-16 19:15:47,194 INFO    SenderThread:25740 [sender.py:send_request_defer():613] handle sender defer: 3
+2024-02-16 19:15:47,194 INFO    SenderThread:25740 [sender.py:transition_state():617] send defer: 4
+2024-02-16 19:15:47,194 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: defer
+2024-02-16 19:15:47,194 INFO    HandlerThread:25740 [handler.py:handle_request_defer():172] handle defer: 4
+2024-02-16 19:15:47,194 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: defer
+2024-02-16 19:15:47,194 INFO    SenderThread:25740 [sender.py:send_request_defer():613] handle sender defer: 4
+2024-02-16 19:15:47,194 INFO    SenderThread:25740 [sender.py:transition_state():617] send defer: 5
+2024-02-16 19:15:47,194 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: defer
+2024-02-16 19:15:47,194 INFO    HandlerThread:25740 [handler.py:handle_request_defer():172] handle defer: 5
+2024-02-16 19:15:47,194 DEBUG   SenderThread:25740 [sender.py:send():382] send: summary
+2024-02-16 19:15:47,195 INFO    SenderThread:25740 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-16 19:15:47,195 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: defer
+2024-02-16 19:15:47,195 INFO    SenderThread:25740 [sender.py:send_request_defer():613] handle sender defer: 5
+2024-02-16 19:15:47,195 INFO    SenderThread:25740 [sender.py:transition_state():617] send defer: 6
+2024-02-16 19:15:47,195 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: defer
+2024-02-16 19:15:47,195 INFO    HandlerThread:25740 [handler.py:handle_request_defer():172] handle defer: 6
+2024-02-16 19:15:47,195 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: defer
+2024-02-16 19:15:47,195 INFO    SenderThread:25740 [sender.py:send_request_defer():613] handle sender defer: 6
+2024-02-16 19:15:47,195 INFO    SenderThread:25740 [sender.py:transition_state():617] send defer: 7
+2024-02-16 19:15:47,196 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: status_report
+2024-02-16 19:15:47,196 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: defer
+2024-02-16 19:15:47,196 INFO    HandlerThread:25740 [handler.py:handle_request_defer():172] handle defer: 7
+2024-02-16 19:15:47,196 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: defer
+2024-02-16 19:15:47,196 INFO    SenderThread:25740 [sender.py:send_request_defer():613] handle sender defer: 7
+2024-02-16 19:15:47,918 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\wandb-summary.json
+2024-02-16 19:15:47,918 INFO    Thread-16 :25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\output.log
+2024-02-16 19:15:48,194 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: poll_exit
+2024-02-16 19:15:49,400 INFO    SenderThread:25740 [sender.py:transition_state():617] send defer: 8
+2024-02-16 19:15:49,400 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: poll_exit
+2024-02-16 19:15:49,400 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: defer
+2024-02-16 19:15:49,400 INFO    HandlerThread:25740 [handler.py:handle_request_defer():172] handle defer: 8
+2024-02-16 19:15:49,400 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: defer
+2024-02-16 19:15:49,401 INFO    SenderThread:25740 [sender.py:send_request_defer():613] handle sender defer: 8
+2024-02-16 19:15:49,401 INFO    SenderThread:25740 [job_builder.py:build():296] Attempting to build job artifact
+2024-02-16 19:15:49,401 INFO    SenderThread:25740 [job_builder.py:_get_source_type():437] no source found
+2024-02-16 19:15:49,401 INFO    SenderThread:25740 [sender.py:transition_state():617] send defer: 9
+2024-02-16 19:15:49,401 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: defer
+2024-02-16 19:15:49,401 INFO    HandlerThread:25740 [handler.py:handle_request_defer():172] handle defer: 9
+2024-02-16 19:15:49,402 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: defer
+2024-02-16 19:15:49,402 INFO    SenderThread:25740 [sender.py:send_request_defer():613] handle sender defer: 9
+2024-02-16 19:15:49,402 INFO    SenderThread:25740 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-02-16 19:15:49,941 INFO    SenderThread:25740 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\output.log
+2024-02-16 19:15:49,941 INFO    SenderThread:25740 [dir_watcher.py:finish():388] scan: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files
+2024-02-16 19:15:49,941 INFO    SenderThread:25740 [dir_watcher.py:finish():402] scan save: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\config.yaml config.yaml
+2024-02-16 19:15:49,942 INFO    SenderThread:25740 [dir_watcher.py:finish():402] scan save: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\output.log output.log
+2024-02-16 19:15:49,944 INFO    SenderThread:25740 [dir_watcher.py:finish():402] scan save: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\requirements.txt requirements.txt
+2024-02-16 19:15:49,945 INFO    SenderThread:25740 [dir_watcher.py:finish():402] scan save: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\wandb-metadata.json wandb-metadata.json
+2024-02-16 19:15:49,946 INFO    SenderThread:25740 [dir_watcher.py:finish():402] scan save: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\wandb-summary.json wandb-summary.json
+2024-02-16 19:15:49,949 INFO    SenderThread:25740 [sender.py:transition_state():617] send defer: 10
+2024-02-16 19:15:49,949 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: defer
+2024-02-16 19:15:49,949 INFO    HandlerThread:25740 [handler.py:handle_request_defer():172] handle defer: 10
+2024-02-16 19:15:49,949 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: defer
+2024-02-16 19:15:49,950 INFO    SenderThread:25740 [sender.py:send_request_defer():613] handle sender defer: 10
+2024-02-16 19:15:49,951 INFO    SenderThread:25740 [file_pusher.py:finish():172] shutting down file pusher
+2024-02-16 19:15:50,223 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: poll_exit
+2024-02-16 19:15:50,223 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: poll_exit
+2024-02-16 19:15:51,233 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: poll_exit
+2024-02-16 19:15:51,233 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: poll_exit
+2024-02-16 19:15:52,245 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: poll_exit
+2024-02-16 19:15:52,246 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: poll_exit
+2024-02-16 19:15:52,334 INFO    wandb-upload_1:25740 [upload_job.py:push():131] Uploaded file D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\output.log
+2024-02-16 19:15:52,687 INFO    wandb-upload_3:25740 [upload_job.py:push():131] Uploaded file D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\wandb-summary.json
+2024-02-16 19:15:52,825 INFO    wandb-upload_2:25740 [upload_job.py:push():131] Uploaded file D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\requirements.txt
+2024-02-16 19:15:52,846 INFO    wandb-upload_0:25740 [upload_job.py:push():131] Uploaded file D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\files\config.yaml
+2024-02-16 19:15:53,054 INFO    Thread-15 (_thread_body):25740 [sender.py:transition_state():617] send defer: 11
+2024-02-16 19:15:53,055 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: defer
+2024-02-16 19:15:53,055 INFO    HandlerThread:25740 [handler.py:handle_request_defer():172] handle defer: 11
+2024-02-16 19:15:53,055 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: defer
+2024-02-16 19:15:53,056 INFO    SenderThread:25740 [sender.py:send_request_defer():613] handle sender defer: 11
+2024-02-16 19:15:53,056 INFO    SenderThread:25740 [file_pusher.py:join():178] waiting for file pusher
+2024-02-16 19:15:53,056 INFO    SenderThread:25740 [sender.py:transition_state():617] send defer: 12
+2024-02-16 19:15:53,056 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: defer
+2024-02-16 19:15:53,056 INFO    HandlerThread:25740 [handler.py:handle_request_defer():172] handle defer: 12
+2024-02-16 19:15:53,057 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: defer
+2024-02-16 19:15:53,057 INFO    SenderThread:25740 [sender.py:send_request_defer():613] handle sender defer: 12
+2024-02-16 19:15:53,057 INFO    SenderThread:25740 [file_stream.py:finish():595] file stream finish called
+2024-02-16 19:15:53,256 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: poll_exit
+2024-02-16 19:15:53,588 INFO    SenderThread:25740 [file_stream.py:finish():599] file stream finish is done
+2024-02-16 19:15:53,589 INFO    SenderThread:25740 [sender.py:transition_state():617] send defer: 13
+2024-02-16 19:15:53,589 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: poll_exit
+2024-02-16 19:15:53,589 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: defer
+2024-02-16 19:15:53,589 INFO    HandlerThread:25740 [handler.py:handle_request_defer():172] handle defer: 13
+2024-02-16 19:15:53,589 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: defer
+2024-02-16 19:15:53,589 INFO    SenderThread:25740 [sender.py:send_request_defer():613] handle sender defer: 13
+2024-02-16 19:15:53,589 INFO    SenderThread:25740 [sender.py:transition_state():617] send defer: 14
+2024-02-16 19:15:53,590 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: defer
+2024-02-16 19:15:53,590 INFO    HandlerThread:25740 [handler.py:handle_request_defer():172] handle defer: 14
+2024-02-16 19:15:53,590 DEBUG   SenderThread:25740 [sender.py:send():382] send: final
+2024-02-16 19:15:53,590 DEBUG   SenderThread:25740 [sender.py:send():382] send: footer
+2024-02-16 19:15:53,590 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: defer
+2024-02-16 19:15:53,590 INFO    SenderThread:25740 [sender.py:send_request_defer():613] handle sender defer: 14
+2024-02-16 19:15:53,590 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: poll_exit
+2024-02-16 19:15:53,591 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: poll_exit
+2024-02-16 19:15:53,591 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: poll_exit
+2024-02-16 19:15:53,591 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: server_info
+2024-02-16 19:15:53,591 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: poll_exit
+2024-02-16 19:15:53,591 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: get_summary
+2024-02-16 19:15:53,591 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: server_info
+2024-02-16 19:15:53,593 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: sampled_history
+2024-02-16 19:15:53,595 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-16 19:15:53,595 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: job_info
+2024-02-16 19:15:53,742 DEBUG   SenderThread:25740 [sender.py:send_request():409] send_request: job_info
+2024-02-16 19:15:53,743 INFO    MainThread:25740 [wandb_run.py:_footer_history_summary_info():3866] rendering history
+2024-02-16 19:15:53,743 INFO    MainThread:25740 [wandb_run.py:_footer_history_summary_info():3898] rendering summary
+2024-02-16 19:15:53,743 INFO    MainThread:25740 [wandb_run.py:_footer_sync_info():3825] logging synced files
+2024-02-16 19:15:53,744 DEBUG   HandlerThread:25740 [handler.py:handle_request():146] handle_request: shutdown
+2024-02-16 19:15:53,744 INFO    HandlerThread:25740 [handler.py:finish():869] shutting down handler
+2024-02-16 19:15:54,596 INFO    WriterThread:25740 [datastore.py:close():296] close: D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\wandb\run-20240216_191214-i5lo7d2v\run-i5lo7d2v.wandb
+2024-02-16 19:15:54,751 INFO    SenderThread:25740 [sender.py:finish():1572] shutting down sender
+2024-02-16 19:15:54,751 INFO    SenderThread:25740 [file_pusher.py:finish():172] shutting down file pusher
+2024-02-16 19:15:54,751 INFO    SenderThread:25740 [file_pusher.py:join():178] waiting for file pusher

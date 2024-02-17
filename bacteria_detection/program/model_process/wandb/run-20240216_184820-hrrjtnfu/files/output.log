@@ -1,0 +1,76 @@
+
+Epoch 1/20
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|██████████| 132/132 [02:20<00:00,  1.06s/it]
+Traceback (most recent call last):
+  File "D:\Project\PythonProject\DeepLearing\bacteria_detection\program\model_process\model_train_self_improve.py", line 261, in <module>
+    lr_scheduler.step()
+    ^^^^^^^^^^^^^^^^^
+AttributeError: module 'torch.optim.lr_scheduler' has no attribute 'step'

@@ -1,0 +1,39 @@
+{
+    "os": "Windows-10-10.0.19045-SP0",
+    "python": "3.11.5",
+    "heartbeatAt": "2024-02-16T18:12:16.472320",
+    "startedAt": "2024-02-16T18:12:14.967182",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "D:\\Project\\PythonProject\\DeepLearing\\bacteria_detection\\program\\model_process\\model_train_self_improve.py",
+    "codePathLocal": "model_train_self_improve.py",
+    "codePath": "model_train_self_improve.py",
+    "host": "DESKTOP-ATVCHDC",
+    "username": "LuckyRen",
+    "executable": "D:\\Project\\PythonProject\\DeepLearing\\venv\\Scripts\\python.exe",
+    "cpu_count": 8,
+    "cpu_count_logical": 16,
+    "cpu_freq": {
+        "current": 2537.0,
+        "min": 0.0,
+        "max": 3201.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2537.0,
+            "min": 0.0,
+            "max": 3201.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 276.93847274780273,
+            "used": 101.29259872436523
+        }
+    },
+    "memory": {
+        "total": 27.69232940673828
+    }
+}
